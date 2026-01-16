@@ -1,5 +1,6 @@
 ## Members
-Ryan Jeronimus, EE Student
+Ryan Jeronimus, EE Student (Graduating 2027)
+
 ryanjeronimus@vt.edu
 
 ## Mentor
@@ -10,10 +11,10 @@ IN PROGRESS
 
 ## Project Overview
 
-PCB featuring 3.5mm audio inputs and ouputs, an audio CODEC IC, bare-metal STM32 board for implementing DSP algorithms, and a small i2c LED display for displaying information pertaining to the audio effects implemented on the DSP. Features programmable potentiometers and buttons for use in DSP implementations. Battery powered for ease of use.
+PCB featuring 3.5mm audio inputs and ouputs, an audio CODEC for high-quality sampling and reconstruction, bare-metal STM32 board for implementing DSP algorithms, and a small i2c LED display for displaying information pertaining to the audio effects implemented on the STM32 (realtime display). Features programmable potentiometers and buttons for use in DSP implementations. Battery powered for ease of use when travelling.
 
 ## Educational Value Added
-This project teaches about PCB design, power electronics, baremetal C programming practices, and DSP for audio applications (many concepts in this field are widely applicable to general DSP).
+This project teaches about PCB design, power electronics, bare-metal C programming practices, and DSP for audio applications (which includes topics widely applicable to general DSP). Audio-specific communication protocols such as i2s would also be taught with the completion of this project.
 ## Tasks
 
 <!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
@@ -45,4 +46,5 @@ This project teaches about PCB design, power electronics, baremetal C programmin
 ## Log
 
 <!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
+
 
