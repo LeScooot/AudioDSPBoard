@@ -1,6 +1,6 @@
 ## Members
-Henry Forsyth, Computer Engineering Student (2024)
-rhforsythjr@vt.edu
+Ryan Jeronimus, EE Student
+ryanjeronimus@vt.edu
 
 ## Mentor
 MENTOR NAME HERE
@@ -10,12 +10,10 @@ IN PROGRESS
 
 ## Project Overview
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula, odio eu dictum aliquet, enim elit tempor diam, quis volutpat mi eros ut nisi. Aliquam luctus orci eget accumsan porta. Proin sollicitudin ultricies lacus et varius. Pellentesque tempor vehicula tempus. Integer semper id lorem vehicula tristique. Suspendisse nec placerat libero, eget aliquet eros. Phasellus iaculis quis lorem in ultrices. Nunc lobortis odio at sem pretium dictum. Integer sed tellus quis lorem pretium posuere.
+PCB featuring 3.5mm audio inputs and ouputs, an audio CODEC IC, bare-metal STM32 board for implementing DSP algorithms, and a small i2c LED display for displaying information pertaining to the audio effects implemented on the DSP. Features programmable potentiometers and buttons for use in DSP implementations. Battery powered for ease of use.
 
 ## Educational Value Added
-
-Vivamus dapibus iaculis dui. Nullam vitae arcu a nisi elementum semper eu eu velit. Suspendisse vel dictum lacus. Sed facilisis luctus consequat. Donec vulputate eu dolor in molestie. Maecenas pretium sem non tellus facilisis sollicitudin id ut nulla. In condimentum orci nisi, sagittis facilisis neque convallis eget. Duis ut sem cursus, placerat mi pellentesque, mollis eros. Integer efficitur blandit elit, sed egestas sem porta in. Mauris euismod nulla ac tellus tempus, eu egestas dui molestie. Proin faucibus enim quis consequat sodales. Pellentesque eleifend blandit augue et laoreet. Phasellus vel posuere nisi, ac aliquam arcu.
-
+This project teaches about PCB design, power electronics, baremetal C programming practices, and DSP for audio applications (many concepts in this field are widely applicable to general DSP).
 ## Tasks
 
 <!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
@@ -47,3 +45,4 @@ Vivamus dapibus iaculis dui. Nullam vitae arcu a nisi elementum semper eu eu vel
 ## Log
 
 <!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
+
