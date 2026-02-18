@@ -1,0 +1,228 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e71502b9-0eee-4f6d-8325-0b2ddd7bcfbd")
+	(paper "User" 457.2 330.2)
+	(title_block
+		(title "PHIL Board")
+		(date "2026-01-30")
+		(rev "1")
+		(company "Ryan Jeronimus")
+	)
+	(lib_symbols)
+	(text "[4] ADC\n"
+		(exclude_from_sim no)
+		(at 260.604 174.752 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "1cc14cfb-e89f-4b54-b56e-cd80dff17452")
+	)
+	(text "[2] MCU"
+		(exclude_from_sim no)
+		(at 261.62 27.94 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "35808191-a3c6-486e-8d3a-b09010bafc9b")
+	)
+	(text "[1] Power"
+		(exclude_from_sim no)
+		(at 46.228 29.718 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "6c9fb970-c518-4c43-b42f-d17e62e663a8")
+	)
+	(text "[3] DAC\n"
+		(exclude_from_sim no)
+		(at 45.72 175.26 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "a972e36e-54bc-4e04-9979-23eaedb23c8d")
+	)
+	(sheet
+		(at 35.56 40.64)
+		(size 91.44 111.76)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0941a2dc-af85-42f1-8cfa-ecbadd9fe23a")
+		(property "Sheetname" "Power"
+			(at 35.56 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 35.56 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "phil_board"
+				(path "/e71502b9-0eee-4f6d-8325-0b2ddd7bcfbd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 187.96)
+		(size 88.9 88.9)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1661b0d9-6281-4fa7-9d2f-efc8563db2a4")
+		(property "Sheetname" "DAC"
+			(at 40.64 187.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dac.kicad_sch"
+			(at 40.64 277.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "phil_board"
+				(path "/e71502b9-0eee-4f6d-8325-0b2ddd7bcfbd"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 243.84 187.96)
+		(size 104.14 86.36)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "94fc4386-3540-443f-bc63-85edaea8f27d")
+		(property "Sheetname" "ADC"
+			(at 243.84 187.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc.kicad_sch"
+			(at 243.84 274.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "phil_board"
+				(path "/e71502b9-0eee-4f6d-8325-0b2ddd7bcfbd"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 38.1)
+		(size 97.79 114.3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf566bc5-6961-4a19-8dc3-49b52b12add4")
+		(property "Sheetname" "MCU"
+			(at 241.3 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 241.3 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "phil_board"
+				(path "/e71502b9-0eee-4f6d-8325-0b2ddd7bcfbd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
