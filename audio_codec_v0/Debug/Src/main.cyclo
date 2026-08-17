@@ -1,0 +1,9 @@
+../Src/main.c:76:5:main	3
+../Src/main.c:140:6:SystemClock_Config	4
+../Src/main.c:195:6:PeriphCommonClock_Config	2
+../Src/main.c:219:13:MX_SAI1_Init	3
+../Src/main.c:265:13:MX_USART2_UART_Init	2
+../Src/main.c:296:13:MX_DMA_Init	1
+../Src/main.c:316:13:MX_GPIO_Init	1
+../Src/main.c:344:5:__io_putchar	1
+../Src/main.c:355:6:Error_Handler	1
