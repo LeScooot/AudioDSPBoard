@@ -239,6 +239,7 @@ static void MX_SAI1_Init(void) {
 	if (HAL_SAI_InitProtocol(&hsai_BlockA1, SAI_I2S_STANDARD, SAI_PROTOCOL_DATASIZE_24BIT, 2) != HAL_OK) {
 		Error_Handler();
 	}
+	//test edit
 	hsai_BlockB1.Instance = SAI1_Block_B;
 	hsai_BlockB1.Init.AudioMode = SAI_MODESLAVE_RX;
 	hsai_BlockB1.Init.Synchro = SAI_SYNCHRONOUS;
